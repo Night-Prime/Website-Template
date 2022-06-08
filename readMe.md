@@ -1,0 +1,1 @@
+Each styles in the /styles folder while each html is in the /src folder.

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: none;
+}
+
+nav {
+    width: 100%;
+    height: 8vh;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 0px 0px 2px 2px;
+    color:white;
+    position: sticky;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 1rem;
+}
+
+.brand {
+    flex: 2;
+    margin-left: 3rem;
+}
+
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+}
+
+main h1,p{
+    font-size: 116px;
+    margin-left: 2rem;
+}
+
+
+
+section {
+    height:4vh;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color:white;
+    padding: 2rem;
+}
+
+.footer-links {
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    color:white;
+}
+
+.link:hover {
+    color: red;
+}
+
+
+.form {
+    padding-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-top: 2rem;
+}
+
+input,
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: rgb(170, 168, 168);
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 400px #ccc;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: red;
+    font-weight: 500;
+}
